@@ -3,6 +3,7 @@ Plast Pack Changelog
 V1.17
 ----
     - Updated to 1.14
+    - Skinny crossbow with drawback status bar!
 
 V1.16.2
 -------
