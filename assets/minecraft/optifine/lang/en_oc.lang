@@ -1,8 +1,10 @@
 # General
 of.general.ambiguous=ambiguous
+of.general.compact=Compact
 of.general.custom=Custom
 of.general.from=From
 of.general.id=Id
+of.general.max=Maximum
 of.general.restart=restart
 of.general.smart=§dSmart
 
@@ -50,6 +52,16 @@ of.message.loadingVisibleChunks=Loading visible chunks
 # Skin customization
 
 of.options.skinCustomisation.ofCape=§bOptiFine Cape
+
+of.options.capeOF.title=OptiFine Cape
+of.options.capeOF.openEditor=§bOpen Cape Editor
+of.options.capeOF.reloadCape=§bReload Cape
+
+of.message.capeOF.openEditor=The OptiFine cape editor should open in a web browser.
+of.message.capeOF.reloadCape=The cape will be reloaded in 15 seconds.
+
+of.message.capeOF.error1=Mojang authentication failed.
+of.message.capeOF.error2=Error: %s
 
 # Video settings
 
@@ -689,15 +701,18 @@ of.options.SHOW_FPS.tooltip.5=  U: - chunk updates
 of.options.SHOW_FPS.tooltip.6=The compact FPS information is only shown when the
 of.options.SHOW_FPS.tooltip.7=debug screen is not visible.
 
-of.options.save.default=§cDefault (2s)
-of.options.save.20s=§e20s
-of.options.save.3min=§a3min
-of.options.save.30min=§530min
+of.options.save.45s=§445s
+of.options.save.90s=§c90s
+of.options.save.3min=§e3min
+of.options.save.6min=§a6min
+of.options.save.12min=§512min
+of.options.save.24min=§524min
 
 of.options.AUTOSAVE_TICKS=§bAutosave
-of.options.AUTOSAVE_TICKS.tooltip.1=Autosave interval
-of.options.AUTOSAVE_TICKS.tooltip.2=Default autosave interval (2s) is NOT RECOMMENDED.
-of.options.AUTOSAVE_TICKS.tooltip.3=Autosave causes the famous Lag Spike of Death.
+of.options.AUTOSAVE_TICKS.tooltip.1=Autosave Interval
+of.options.AUTOSAVE_TICKS.tooltip.2= 45s - default
+of.options.AUTOSAVE_TICKS.tooltip.3=Autosave may generate lag spikes depending on the render distance.
+of.options.AUTOSAVE_TICKS.tooltip.4=The world is also saved when the game menu is opened.
 
 of.options.SCREENSHOT_SIZE=§bScreenshot Size
 of.options.SCREENSHOT_SIZE.tooltip.1=Screenshot Size
@@ -714,3 +729,16 @@ of.options.SHOW_GL_ERRORS.tooltip.3=Disable it only if there is a known conflict
 of.options.SHOW_GL_ERRORS.tooltip.4=the errors can't be fixed.
 of.options.SHOW_GL_ERRORS.tooltip.5=When disabled the errors are still logged in the
 of.options.SHOW_GL_ERRORS.tooltip.6=error log and they may still cause a significant FPS drop.
+
+# Chat Settings
+
+of.options.CHAT_BACKGROUND=§bChat Background
+of.options.CHAT_BACKGROUND.tooltip.1=Chat Background
+of.options.CHAT_BACKGROUND.tooltip.2=  Default - fixed width
+of.options.CHAT_BACKGROUND.tooltip.3=  Compact - matches line width
+of.options.CHAT_BACKGROUND.tooltip.4=  OFF - hidden
+
+of.options.CHAT_SHADOW=§bChat Shadow
+of.options.CHAT_SHADOW.tooltip.1=Chat Shadow
+of.options.CHAT_SHADOW.tooltip.2=  ON - use text shadow
+of.options.CHAT_SHADOW.tooltip.3=  OFF - no text shadow
